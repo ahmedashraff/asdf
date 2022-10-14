@@ -13,7 +13,6 @@ jobs:
           package-name: release-please-action
           pull-request-title-pattern: "NewPR${scope}: release${component} ${version}"
           prerelease: true
-          fork: true
           default-branch: staging
       - uses: google-github-actions/release-please-action@v3
         with:
@@ -21,5 +20,4 @@ jobs:
           package-name: release-please-action
           pull-request-title-pattern: "PRODUCTION NewPR${scope}: release${component} ${version}"
           prerelease: true
-          fork: true
           default-branch: main
