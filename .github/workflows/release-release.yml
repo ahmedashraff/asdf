@@ -9,14 +9,14 @@ jobs:
     steps:
       - uses: google-github-actions/release-please-action@v3
         with:
-          release-type: node
+          release-type: go
           package-name: release-please-action
           pull-request-title-pattern: "NewPR${scope}: release${component} ${version}"
           prerelease: true
           default-branch: staging
       - uses: google-github-actions/release-please-action@v3
         with:
-          release-type: node
+          release-type: go
           package-name: release-please-action
           pull-request-title-pattern: "PRODUCTION NewPR${scope}: release${component} ${version}"
           prerelease: true
