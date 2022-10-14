@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.0](https://github.com/ahmedashraff/asdf/compare/v1.0.0...v1.1.0) (2022-10-14)
+
+
+### Features
+
+* add dev branch to release please workflows github action ([836269d](https://github.com/ahmedashraff/asdf/commit/836269ddebc0050e9d398b6ce315dbeff8315027))
+* add release please to staging and remove dev ([27005dd](https://github.com/ahmedashraff/asdf/commit/27005ddf67f22a723d78d6b89e0bf0a57d36f826))
+
 ## 1.0.0 (2022-10-14)
 
 
