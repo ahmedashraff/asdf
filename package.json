@@ -10,6 +10,15 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0",
     "husky": "^8.0.0"
+  },
+  "dependencies": {
+    "commitizen": "^4.2.5"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
