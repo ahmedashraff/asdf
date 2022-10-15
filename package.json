@@ -2,8 +2,7 @@
   "devDependencies": {
     "@digitalroute/cz-conventional-changelog-for-jira": "^7.4.1",
     "@ryansonshine/commitizen": "^4.2.8",
-    "cz-conventional-changelog": "^3.3.0",
-    "husky": "^8.0.1"
+    "cz-conventional-changelog": "^3.3.0"
   },
   "config": {
     "commitizen": {
@@ -12,8 +11,5 @@
       "jiraLocation": "post-body",
       "path": "./index.js"
     }
-  },
-  "scripts": {
-    "prepare": "husky install"
   }
 }
