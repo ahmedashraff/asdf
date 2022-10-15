@@ -2,6 +2,14 @@
 
 
 =======
+## [1.2.0](https://github.com/ahmedashraff/asdf/compare/v1.1.0...v1.2.0) (2022-10-15)
+
+
+### Features
+
+* change the release please to open two PRs on [ staging, main ] when a PR open on dev ([edf015a](https://github.com/ahmedashraff/asdf/commit/edf015af42cea0d9d799396d7edf0618efba2e05))
+* new file added ([e868252](https://github.com/ahmedashraff/asdf/commit/e868252e4033795c32fec0da208c24668f79758d))
+
 ## [1.1.0](https://github.com/ahmedashraff/asdf/compare/v1.0.0...v1.1.0) (2022-10-14)
 
 
