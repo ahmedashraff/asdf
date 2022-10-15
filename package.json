@@ -1,13 +1,16 @@
 {
   "devDependencies": {
     "@digitalroute/cz-conventional-changelog-for-jira": "^7.4.1",
-    "commitizen": "^4.2.5",
+    "@ryansonshine/commitizen": "^4.2.8",
     "cz-conventional-changelog": "^3.3.0",
     "husky": "^8.0.1"
   },
   "config": {
     "commitizen": {
-      "path": "./node_modules/@digitalroute/cz-conventional-changelog-for-jira"
+      "jiraMode": true,
+      "jiraOptional": false,
+      "jiraLocation": "post-body",
+      "path": "./index.js"
     }
   },
   "scripts": {
