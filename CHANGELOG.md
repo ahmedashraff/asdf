@@ -1,5 +1,21 @@
 # Changelog
 
+## [2.0.0](https://github.com/ahmedashraff/asdf/compare/v1.2.0...v2.0.0) (2022-10-16)
+
+
+### ⚠ BREAKING CHANGES
+
+* **presentation:** change A
+
+### Features
+
+* **presentation:** ECOMMERCE-123 add feature D ([78442f1](https://github.com/ahmedashraff/asdf/commit/78442f16921f1da9cea77d1011d6fd39d8907150))
+
+
+### Bug Fixes
+
+* **fix feature bug:** remove one line ([f830ad3](https://github.com/ahmedashraff/asdf/commit/f830ad30dc66fb4eeec6174fa9fcc3ff1c443080))
+
 ## [1.2.0](https://github.com/ahmedashraff/asdf/compare/v1.1.0...v1.2.0) (2022-10-15)
 
 
