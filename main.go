@@ -14,4 +14,10 @@ func main() {
 	fmt.Println("feature C do a second job part 2")
 	fmt.Println("feature C do a second job part 3")
 	fmt.Println("feature C do a second job part 3.1")
+
+	fmt.Println("feature C do a second job")
+	fmt.Println("feature C do a second job part 2")
+	fmt.Println("feature C do a second job part 3")
+	fmt.Println("feature C do a second job part 3.1")
+
 }
