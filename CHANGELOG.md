@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.3.0](https://github.com/ahmedashraff/asdf/compare/v1.2.0...v1.3.0) (2022-11-01)
+
+
+### Features
+
+* **standalone feature:** add feature test 2 ([72b3499](https://github.com/ahmedashraff/asdf/commit/72b34999a3f762d1bc54db385c1ba6845976d4c3))
+* **standalone feature:** asdf ([b747aa6](https://github.com/ahmedashraff/asdf/commit/b747aa6e8d97f345f7fd20f873c3e16c708ad084))
+
+
+### Bug Fixes
+
+* **standalone feature:** test2 ([e9d05f2](https://github.com/ahmedashraff/asdf/commit/e9d05f2c482f6ba9d1f275b59857e5f6530463fe))
+
 ## [1.2.0](https://github.com/ahmedashraff/asdf/compare/v1.1.0...v1.2.0) (2022-10-15)
 
 
