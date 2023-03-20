@@ -1,17 +1,15 @@
-name: asdf-Move assigned card
+name: Move assigned pull requests into target column
 
 on:
-  push:
-    branches: [ staging ]
   pull_request:
-    branches: [ staging ]
+    types: [closed]
 
 jobs:
-  move-assigned-card:
+  automate-project-columns:
     runs-on: ubuntu-latest
     steps:
-      - uses: ahmedashraff/asdf@latest
+      - uses: alex-page/github-project-automation-plus@v0.8.3
         with:
           project: test
           column: staging
-          repo-token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
