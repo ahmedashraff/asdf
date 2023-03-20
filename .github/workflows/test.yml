@@ -1,0 +1,17 @@
+name: asdf-Move assigned card
+
+on:
+  push:
+    branches: [ staging ]
+  pull_request:
+    branches: [ staging ]
+
+jobs:
+  move-assigned-card:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: ahmedashraff/asdf
+        with:
+          project: test
+          column: staging
+          repo-token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
