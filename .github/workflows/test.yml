@@ -10,7 +10,7 @@ jobs:
   move-assigned-card:
     runs-on: ubuntu-latest
     steps:
-      - uses: ahmedashraff/asdf
+      - uses: ahmedashraff/asdf@latest
         with:
           project: test
           column: staging
