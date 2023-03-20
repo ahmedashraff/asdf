@@ -1,0 +1,15 @@
+name: Move assigned pull requests into target column
+
+on:
+  pull_request:
+    types: [closed]
+
+jobs:
+  automate-project-columns:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: alex-page/github-project-automation-plus@v0.8.3
+        with:
+          project: test
+          column: staging
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
